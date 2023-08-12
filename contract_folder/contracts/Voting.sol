@@ -39,6 +39,7 @@ contract Voting {
         require(msg.sender == owner, "Only owner can register Candidate!!");
         require(_candidateAddress != owner, "Owner can not participate!!");
         require(candidates[_candidateAddress] == 0, "Candidate already registered");
+        require(_age >= 18, "Candidate lesser than legal age");
         Candidate memory candidate = Candidate({
             name: _name,
             age: _age,
@@ -96,7 +97,7 @@ contract Voting {
     function stopVoting() public {
         require(msg.sender == owner, "Only owner can start voting!!");
         votingStarted = false;
-        emit success("Voting stoped!!");
+        emit success("Voting stopped!!");
     }
 
     function getAllCandidate() public view returns(Candidate[] memory list){

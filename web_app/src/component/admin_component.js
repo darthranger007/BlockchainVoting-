@@ -24,7 +24,7 @@ function AdminComponent({account, contractInstance}) {
     const [candidateAge, setCandidateAge] = useState();
     const [candidateAddress, setCandidatAddress] = useState();
     const [voterAddress, setVoterAddress] = useState();
-    const [winnerAddress, setWinnerAddress] = useState("shubham");
+    const [winnerAddress, setWinnerAddress] = useState("shaurya");
 
     async function register_candidate(){
         console.log("name:", candidateName);
