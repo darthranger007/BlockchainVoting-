@@ -4,6 +4,7 @@ Blockchain can be used in developing many real life application that can solve t
 is an important part on a Democratic Country. Hence in this project I have tried to implement a simple voting solution using Blockchain technology.
 
 ## Pre-requesits
+## Pre-requesits
 1. Npm and node should be installed
 2. truffle 
 3. Metamask extension in the browser
