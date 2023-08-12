@@ -13,7 +13,7 @@ is an important part on a Democratic Country. Hence in this project I have tried
 
 ### Steps to compile the contract
 
-2. cd Voting-dapp/contract-folder
+2. cd contract-folder
 3. Install dependencies: `npm install`
 4. Run truffle in a terminal: `truffle develop`
 5. Compile the code: `compile`
