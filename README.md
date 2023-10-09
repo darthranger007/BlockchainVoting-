@@ -26,4 +26,4 @@ is an important part on a Democratic Country. Hence in this project I have tried
 4. Open metamask and create accounts for voters and candidates
 5. Run the react app: `npm start`
 
-
+heyyyy
